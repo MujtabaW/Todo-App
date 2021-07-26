@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    /* color: blanchedalmond; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff9;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+.bor{
+    border: 1px solid black;
+}
+.addTodo{
+    text-align: center;
+    color: #ffffff;
+}
+.addTodo input{
+    width: 60%;
+    outline: none;
+    padding: 3px;
+    padding-left: 10px;
+    line-height: 2em;
+    border-radius: 6px;
+}
+.addTodo button{
+    line-height: 2em;
+    border-radius: 5px;
+}
+.main {
+    margin: 10px auto;
+}
+.editBtn{
+    color: white;
+    background-color: black;
+    padding: 3px 10px;
+    border: 2px solid white;
+    position: absolute;
+    top: 10px;
+    right: 110px;
+    border-radius: 3px;
+}
+.deltBtn{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 3px 10px;
+}
+
+#btn{
+    margin: 15px;
+    color: white;
+    background-color: brown;
+    border-radius: 3px 5px 5px 0;
+}
+#main{
+    margin: 20px;
+}
+.para{
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: larger;
+}  
+
+
+h1:hover{
+    color: #DC3545;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.addTodo input:hover{
+border-color: darkcyan;
+}
+
+.addTodo input:visited{
+    border-color: #C2DAFF;
+    color: darkblue;
+} 
+#btn:hover{
+    color: chocolate;
+}
+.editBtn:hover{
+    color: #53B8BB;
+    background-color: #055052;
+}
+.deltBtn:hover{
+    color: #F3F2C9;
+    background-color: #57837B;
+}
+.addTodo button:hover{
+    color: darkcyan;
+    background-color: cyan;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
